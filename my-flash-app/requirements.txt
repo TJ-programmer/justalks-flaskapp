@@ -1,4 +1,0 @@
-flask
-pyngrok
-langchain
-langchain-community
