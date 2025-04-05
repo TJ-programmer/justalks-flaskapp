@@ -1,7 +1,9 @@
 services:
   - type: web
-    name: my-flask-api
+    name: groq-legal-assistant
     env: python
-    buildCommand: ""
+    buildCommand: pip install -r requirements.txt
     startCommand: python app.py
-    plan: free
+    envVars:
+      - key: GROQ_API_KEY
+        value: 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
