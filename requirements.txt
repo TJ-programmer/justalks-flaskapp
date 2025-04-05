@@ -1,4 +1,5 @@
 flask
-pyngrok
 langchain
 langchain-community
+langchain-groq
+pyngrok
